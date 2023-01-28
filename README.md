@@ -1,4 +1,4 @@
-# NSG’s & Inpecting Network Protocols
+# NSG’s & Inspecting Network Protocols
 
 <p>
 <img src="https://i.imgur.com/JINu0s3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
