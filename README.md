@@ -119,7 +119,7 @@ You’re gonna log off and log back in DC-1 as an admin.
 <img src="https://i.imgur.com/cLdZtkl.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go to Active Directory Users å Computers, go to your domain and click on _EMPLOYEES
+Go to Active Directory Users & Computers, go to your domain and click on _EMPLOYEES
 </p>
 <br />
 
