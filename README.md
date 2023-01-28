@@ -111,7 +111,7 @@ I ipconfig /display dns in which  shows that everything resolves towards one ano
 <img src="https://i.imgur.com/OXy1zTC.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-You’re gonna log off and log back in DC-1 as an admin.
+I log off and log back on DC-1 as an admin.
 </p>
 <br />
 
@@ -119,7 +119,7 @@ You’re gonna log off and log back in DC-1 as an admin.
 <img src="https://i.imgur.com/cLdZtkl.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go to Active Directory Users & Computers, go to your domain and click on _EMPLOYEES
+Went to Active Directory Users & Computers, went to my domain and clicked on _EMPLOYEES
 </p>
 <br />
 
@@ -127,7 +127,7 @@ Go to Active Directory Users & Computers, go to your domain and click on _EMPLOY
 <img src="https://i.imgur.com/d07k2V0.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Select random user and log into Client-1 using the user you’ve selected.
+Selected random user and logged into Client-1 using the user I've selected.
 </p>
 <br />
 
@@ -168,7 +168,7 @@ Went back to DC-1 and put in a text document in the read-access folder.
 <img src="https://i.imgur.com/UuvI4mc.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I go to Client-1’s desktop and notice how I can’t create a new document but i can still access the created documents I made from DC-1
+I go to Client-1’s desktop and notice how I can’t create a new document, but I can still access the created documents I made from DC-1.
 </p>
 <br />
 
@@ -176,7 +176,7 @@ I go to Client-1’s desktop and notice how I can’t create a new document but 
 <img src="https://i.imgur.com/VMBarmi.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Back in DC-1, I create a new organizational unit under the name _SECURITY_GROUPS
+Back in DC-1, I create a new organizational unit under the name _SECURITY_GROUPS.
 </p>
 <br />
 
@@ -184,7 +184,7 @@ Back in DC-1, I create a new organizational unit under the name _SECURITY_GROUPS
 <img src="https://i.imgur.com/FwG7eFK.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I make a new group under _SECURITY_GROUPS called ACCOUNTANTS
+I make a new group under _SECURITY_GROUPS called ACCOUNTANTS.
 </p>
 <br />
 
