@@ -48,4 +48,55 @@ Then I ipconfig /dns to see my local DNS cache record.
 </p>
 <br />
 
+<p>
+<img src="https://i.imgur.com/zSqcRhJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I go back to DC-1 and change the IP address to 8.8.8.8 on the host I had created.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/eTU2b3o.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Now I’m back on Client-1 on the command prompt as an admin and here I ipconfig /flushdns.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/8MMlR3v.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Now I ping my host name in which resulted in getting resolved under 8.8.8.8 since everything got flushed out the cache.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/7Fitc18.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Once again I go back to DC-1 and create a new CNAME.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/8KhT8ID.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I call the record search and associate it with www.google.com
+</p>
+<br />
+I return to Client-1 and ping search, in which it resolves to www.google.com
+
+<p>
+<img src="https://i.imgur.com/UayPASV.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I ipconfig /display dns in which  shows that everything resolves towards one another.
+</p>
+<br />
+
+
+
 
