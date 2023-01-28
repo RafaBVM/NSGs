@@ -105,5 +105,128 @@ I ipconfig /display dns in which  shows that everything resolves towards one ano
 <br />
 
 
+# File Shares & Permissions
+
+<p>
+<img src="https://i.imgur.com/OXy1zTC.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+You’re gonna log off and log back in DC-1 as an admin.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/cLdZtkl.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go to Active Directory Users å Computers, go to your domain and click on _EMPLOYEES
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/d07k2V0.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Select random user and log into Client-1 using the user you’ve selected.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/O15UDBE.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I go back to DC-1 to create some new folders on the C: drive named read-access, write access, no access, and accounting.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/sPQN2O4.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+As you can tell I gave each folder their designated access, copied the link of the write access folder in the midst of this process. Also gave access to the access folder only to domain admins. I skipped on accounting.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/6ALCIrA.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I go to Client-1 and typed \\dc-1 on file explorer.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/FOIE6J5.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Went back to DC-1 and put in a text document in the read-access folder.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/reEWkpr.png" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UuvI4mc.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I go to Client-1’s desktop and notice how I can’t create a new document but i can still access the created documents I made from DC-1
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/VMBarmi.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Back in DC-1, I create a new organizational unit under the name _SECURITY_GROUPS
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/FwG7eFK.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I make a new group under _SECURITY_GROUPS called ACCOUNTANTS
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/zxpBfnt.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Now I go to the file explorer and I right click the accounting folder I had made earlier, and I give it read and write access to the ACCOUNTANTS.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/lYzcFt9.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I go to Client-1 to see if I have access to the accounting in which I do not.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/F9fPGAj.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I go to DC-1 to Active Directory->_SECURITY_GROUPS->go to members->and paste random name from Client_1’s login account.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/v4S77Mb.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I logoff and log back in on Client-1 using the name I had put in the accountant group to essentially gain full access of the accounting folder.
+</p>
+<br />
+
+
+
+
+
+
+
+
+
 
 
