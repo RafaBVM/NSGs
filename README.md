@@ -87,7 +87,14 @@ Once again I go back to DC-1 and create a new CNAME.
 I call the record search and associate it with www.google.com
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/FsVLOMX.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 I return to Client-1 and ping search, in which it resolves to www.google.com
+</p>
+<br />
 
 <p>
 <img src="https://i.imgur.com/UayPASV.png" width="80%" alt="Disk Sanitization Steps"/>
